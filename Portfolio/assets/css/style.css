@@ -71,6 +71,8 @@ section#sobre-mim{
 section#sobre-mim div img{
     width: 60%;
     border-radius: 50%;
+    display: block;
+    margin: auto;
 }
 
 section#sobre-mim div p{
@@ -85,12 +87,16 @@ section#projetos{
     justify-content: center;
     align-items: center;
     padding: 3rem;
+    flex-wrap: wrap;
+}
 
+section#projetos div{
+    width: 20rem;
 }
 
 section#projetos div img{
     display: block;
-    margin: 0 auto;
+    margin: auto;
 }
 
 section#projetos div h2{
@@ -176,4 +182,98 @@ section#habilidades div span#css{
     padding: .3rem;
     border-radius: 1rem;
     width: 20%;
+}
+
+section#contato{
+    padding: 3rem 10rem 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#contato div#redes{
+    width: 100%;
+}
+
+section#contato div#redes h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+section#contato div#redes div#icons{
+    display: flex;
+    justify-content: center;
+}
+
+section#contato div#redes div#icons a{
+    text-decoration: none;
+    color: #3F50CC;
+    font-size: 4rem;
+    padding: 2rem;
+    transition: all .4s ease-out;
+}
+
+section#contato div#redes div#icons a:hover{
+    color: #71aaff;
+}
+
+section#contato div#redes div#icons a i{
+    transition: all .4s ease-out;
+}
+
+section#contato div#redes div#icons a i:hover{
+    transform: scale(1.2);
+}
+
+section#contato div#form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#contato div#form h3{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+section#contato div#form form{
+    width: 50%;
+}
+
+section#contato div#form form input, textarea{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+section#contato div#form form label{
+    font-size: 1.2rem;
+}
+
+section#contato div#form form button{
+    border: 1px solid #3F50CC;
+    background-color: #fff;
+    color: #3F50CC;
+    padding: 1rem;
+    font-size: .8vw;
+    font-weight: 600;
+    border-radius: .5rem;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .6s ease-out;
+    width: 40%;
+}
+
+section#contato div#form form button:hover{
+    background-color: #3F50CC;
+    color: #fff;
+    transform: scale(1.2);
 }
