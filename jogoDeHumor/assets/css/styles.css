@@ -36,30 +36,32 @@ section#conteudo{
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    width: 100%;
 }
 
 section#conteudo div#texto{
     padding: 2.5rem;
-    color: rgb(202, 202, 202);
     text-align: center;
     border: solid 1px rgb(202, 202, 202);
     border-radius: 2rem;
 }
 
 section#conteudo div#texto h2{
-    padding: 1rem;
+    padding: .5rem;
     font-size: 3rem;
+    color: rgb(65, 121, 109);
 }
 
 section#conteudo div#texto h3{
     padding: 1rem;
     font-size: 2rem;
     margin-bottom: 1rem;
+    color:rgb(160, 30, 30)
 }
 
 section#conteudo div#texto button{
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     background-color: rgb(202, 202, 202);
     border: 2px solid rgb(202, 202, 202);
     color: #072450;
@@ -69,30 +71,21 @@ section#conteudo div#texto button{
 }
 
 section#conteudo div#texto button:hover{
-    transform: scale(1.2);
-    box-shadow: 0px 0px 10px 1px black;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 2px black;
 }
 
-section#conteudo div#imagem1 img{
+section#conteudo div#imagem1, #imagem2{
     display: flex;
     justify-content: center;
 }
 
-
-section#conteudo div#imagem2 img{
-    display: flex;
-    justify-content: center;
+section#conteudo div#imagem1 img#imagemDoHumor{
+    width: 70%;
+    border-radius: 3rem;
 }
 
-
-section#conteudo div#imagem1 img{
-    width: 60%;
+section#conteudo div#imagem2 img#imagemDaRiley{
+    width: 70%;
     border-radius: 3rem;
-    padding: 1.5rem;
-}
-
-section#conteudo div#imagem2 img{
-    width: 60%;
-    border-radius: 3rem;
-    padding: 3rem;
 }
